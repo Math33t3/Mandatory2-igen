@@ -1,0 +1,29 @@
+{
+  "name": "mandatory-igen",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset-database": "node ./databases/createDatabase.js delete_mode",
+    "create-database": "node ./databases/createDatabase.js"
+  },
+  "author": "MCB",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.6",
+    "svelte": "^3.58.0",
+    "vite": "^4.3.1"
+  }
+}
